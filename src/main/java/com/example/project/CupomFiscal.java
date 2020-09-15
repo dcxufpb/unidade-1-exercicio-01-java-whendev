@@ -21,13 +21,13 @@ public class CupomFiscal {
 
 	public static void showStoreData()
 	{
-		System.out.printf("%s\r\n",NOME_LOJA);
-		System.out.printf("%s, %d %s\r\n",LOGRADOURO,NUMERO,COMPLEMENTO);
-		System.out.printf("%s - %s - %s\r\n",BAIRRO,MUNICIPIO,ESTADO);
-		System.out.printf("CEP:%s Tel %s\r\n",CEP,TELEFONE);
-		System.out.printf("%s\r\n",OBSERVACAO);
-		System.out.printf("CNPJ: %s\r\n",CNPJ);
-		System.out.printf("IE: %s\r\n",INSCRICAO_ESTADUAL);
+		System.out.printf("%s\n",NOME_LOJA);
+		System.out.printf("%s, %d %s\n",LOGRADOURO,NUMERO,COMPLEMENTO);
+		System.out.printf("%s - %s - %s\n",BAIRRO,MUNICIPIO,ESTADO);
+		System.out.printf("CEP:%s Tel %s\n",CEP,TELEFONE);
+		System.out.printf("%s\n",OBSERVACAO);
+		System.out.printf("CNPJ: %s\n",CNPJ);
+		System.out.printf("IE: %s\n",INSCRICAO_ESTADUAL);
 	}
 
 }
